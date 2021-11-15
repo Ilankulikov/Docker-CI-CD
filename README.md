@@ -14,20 +14,20 @@
 
 Project environment:
 
-![week-6-envs]()
+![docker-envs](https://user-images.githubusercontent.com/90269123/141818723-e8831fa0-e3c3-4299-85e6-e28137188f4e.jpg)
 
 __In this project I implemented a CI/CD piplines as code.
 To do so first I've created a new pipline, then selected my project repository and then selected a Docker template to connect my `Azure Container Registry` with the pipeline.__
 
-![build and push]()
+![docker build and push](https://user-images.githubusercontent.com/90269123/141818752-6765bb9a-5992-4881-a2f2-fa2572d5427e.JPG)
 
 In addition, I followed the 'feature branch workflow' by adding a branch policy for the master branch: __*any change need a code review and build validation before integrating them to the master branch.*__
 
-![branch policy]()
+![branch policy](https://user-images.githubusercontent.com/90269123/141818787-b9dfa300-0784-4616-b4a0-b28af01ad4ae.jpg)
 
 I used 2 environments (staging / production) with their resources to target the deployments from the pipline.
 
-![environments]()
+![environments](https://user-images.githubusercontent.com/90269123/141818823-8a295d45-89f4-4541-8376-c9ce6791b103.JPG)
 
 ## Continuous Integration
 
@@ -46,4 +46,5 @@ Once a change pushed to the master branch the CD pipelines stops and deletes the
 
 The `run` command is executed with the environment variables passed to it directly from the variable group in the library.
 
-![variable groupp]()
+![variable group](https://user-images.githubusercontent.com/90269123/141818866-fab03bb2-d8aa-4f7a-b9c1-cc759b159c06.jpg)
+
