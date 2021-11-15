@@ -1,7 +1,7 @@
 ## Week 9 Project
 # Docker
 
-### Running the Weight Tracker application inside a Docker Container on a virtual machines.
+__Deploying the Weight Tracker application inside a Docker Container on a virtual machines.__
 </br>
 
 ## Prerequisites for the project
